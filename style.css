@@ -1,0 +1,119 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap{
+/* background - used to set background color of text */
+background: red;
+
+/* color - used to set the text color*/
+color: black;
+
+/* width - used to set the width of an element*/
+width: 50px;
+
+/* height - used to set the height of an element */
+height: 100px;
+
+/* margin - used to set outter gap between eleements*/
+margin: auto;
+
+/* padding - used to set inner gap within block*/
+padding: 5px;
+
+/* border - used to set the frame for an element*/
+border: 5px solid red;
+
+/* border-radius - create circle shape */
+border-radius: 50%;
+
+/* makes the element visually bigger */
+transform: scale(1);
+
+/* makes element travel through the site */
+transform: translate(100px, 200px);
+
+/* rotate the element */
+transform: rotate(50deg);
+
+/* streches the element */
+transform: skew(30deg, 50deg);
+
+animation: blink 10s linear infinite;
+
+/* text-align - used to position the text */
+text-align: left;
+
+/* font-family - used to change font style */
+font-family: "Courier New", Courier, monospace;
+
+/* font-size - used to change font size*/
+font-size: large;
+
+/* font-weight used to determine the boldness of text */
+font-weight: 400;
+
+/* font-style set the style of font */
+font-style: italic;
+
+/* background-image used to insert an image in the background*/
+background-image: url(background.webp);
+
+/* background-repeat used to set the number of the pictures in the background*/
+background-repeat: no-repeat;
+
+/* background-size used to determine the size of backgraound picture*/
+background-size: cover;
+
+/* vh is equal to % */
+height: 100vh;
+
+/* turn cursor into pointer  */
+cursor: pointer;
+
+/* smoothes an animation  */
+transition: all 1s;
+
+/* makes the element visually bigger */
+transform: scale(1);
+
+/* makes element travel through the site */
+transform: translate(100px, 200px);
+
+/* rotate the element */
+transform: rotate(50deg);
+
+/* streches the element */
+transform: skew(30deg, 50deg);
+
+/* remove link underlining */
+text-decoration: none;
+}
+
+/* animation - used to create an animation */
+@keyframes blink {
+  0% {
+    background: red;
+  }
+  50% {
+    background: yellow;
+  }
+  100% {
+    background: black;
+  }
+}
+
+/* changes styles when hovered */
+button:hover {
+  background: lightcoral;
+}
+
+/* used for highlighring the current page */
+.active {
+  border-bottom: solid 10px white;
+}
+
+
